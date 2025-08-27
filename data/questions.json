@@ -1,814 +1,824 @@
 {
   "questions": [
     {
-      "text": "In your vehicle, what should you adjust before you start your engine?",
+      "text": "Before starting your engine, which of the following should be properly adjusted?",
       "options": [
-        "Radio and AC controls",
-        "Seat, mirrors, and steering wheel",
-        "Fuel gauge and odometer",
-        "Turn signals and hazard lights"
+        "The vehicle's climate control and entertainment systems",
+        "Your seat, all mirrors, and the steering column",
+        "The fuel mixture and tire pressure monitoring system",
+        "The trip odometer and clock"
       ],
       "correct": 1
     },
     {
-      "text": "What are the equipment requirements for windshields and side windows?",
+      "text": "Florida law requires that your vehicle's windshield:",
       "options": [
-        "Windshields may be tinted black",
-        "Must be safety glass, free of cracks, with proper wipers",
-        "No requirements exist in Florida",
-        "Only the rear window needs to be clear"
+        "May have a non-reflective tint on the top 6 inches",
+        "Must be made of safety glass and be free of any stickers or obstructions",
+        "Can have cracks shorter than 3 inches without requiring repair",
+        "Must be replaced if it has any minor pitting or sand scratches"
       ],
       "correct": 1
     },
     {
-      "text": "Are bumper height requirements the same for every vehicle?",
+      "text": "Bumper height requirements in Florida are determined primarily by:",
       "options": [
-        "Yes, all vehicles have the same requirement",
-        "No, requirements vary by vehicle weight and type",
-        "Only trucks have bumper requirements",
-        "Only cars have bumper requirements"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What must you do if hauling a load that could fall or blow onto the roadway?",
-      "options": [
-        "Drive slower than normal",
-        "Cover the load with a close-fitting cover",
-        "Secure the load with rope only",
-        "Do nothing unless asked by police"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "If a load extends more than 4 feet from a vehicle, how must it be marked?",
-      "options": [
-        "White flags only",
-        "Red flag (day) and red lights (night)",
-        "Reflective tape only",
-        "Orange cone on the road"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "Why is drowsy driving dangerous?",
-      "options": [
-        "It increases reaction time and lowers awareness",
-        "It makes other drivers frustrated",
-        "It only affects long road trips",
-        "It causes you to drive faster"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What should you do if another driver threatens you or drives dangerously?",
-      "options": [
-        "Engage and retaliate",
-        "Avoid eye contact, stay calm, and put distance between you",
-        "Honk repeatedly until they stop",
-        "Follow them until police arrive"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What are the three main categories of distracted driving?",
-      "options": [
-        "Visual, Manual, Cognitive",
-        "Mental, Emotional, Physical",
-        "Road, Traffic, Environmental",
-        "Talking, Eating, Drinking"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "Why is texting one of the most dangerous distracted driving behaviors?",
-      "options": [
-        "It only affects young drivers",
-        "It combines all three distractions: visual, manual, and cognitive",
-        "It is illegal everywhere",
-        "It lowers your speed"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "Can anyone drink and drive safely?",
-      "options": ["Yes", "No", "Only trained drivers", "Only with food"],
-      "correct": 1
-    },
-    {
-      "text": "Which is affected first after drinking: judgment or vision?",
-      "options": ["Vision", "Judgment", "Neither", "Both equally"],
-      "correct": 1
-    },
-    {
-      "text": "What can happen in a crash if you're not wearing a seat belt?",
-      "options": [
-        "Thrown from vehicle, serious injury, or death",
-        "Only minor bruises",
-        "Nothing, airbags are enough",
-        "Fine only"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "Children under what age must be in a car seat?",
-      "options": [
-        "Under 4 years in car seat, 4-5 years in car seat or booster",
-        "Under 6 years always booster",
-        "Under 3 years booster",
-        "Only infants"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "If a passenger under 18 isn't wearing a seat belt, who is charged?",
-      "options": [
-        "The passenger",
-        "The driver",
-        "Both driver and passenger",
-        "No one"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What does a single broken white line mean?",
-      "options": [
-        "Stay in your lane, no passing",
-        "Lane changes are allowed with caution",
-        "Stop before crossing",
-        "Road closed"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What does a double solid yellow line mean?",
-      "options": [
-        "You may pass in both directions",
-        "Passing prohibited in both directions",
-        "You may pass if safe",
-        "Passing allowed for trucks only"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What does a solid yellow line to the right of the center line mean?",
-      "options": [
-        "You may pass",
-        "Do not pass from your lane",
-        "Stop immediately",
-        "Yield to oncoming traffic"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What do red traffic signs indicate?",
-      "options": [
-        "Stop or prohibition",
-        "Construction",
-        "Guidance",
-        "Recreational areas"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "At a 4-way stop, which vehicle moves first?",
-      "options": [
-        "The largest vehicle",
-        "The vehicle that arrives first",
-        "The fastest vehicle",
-        "The vehicle on the left"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What does a red traffic light mean? Flashing red?",
-      "options": [
-        "Stop; Flashing red = proceed carefully",
-        "Stop; Flashing red = stop, then go when safe",
-        "Yield; Flashing red = caution",
-        "Slow; Flashing red = stop always"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "When may you turn right on red?",
-      "options": [
-        "After a full stop, unless posted otherwise",
-        "Anytime",
-        "Only with arrow",
-        "Never"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What does a green arrow with red light mean?",
-      "options": [
-        "You must stop",
-        "You may turn in arrow direction if safe",
-        "Go straight only",
-        "Wait for green light"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What does a flashing yellow light mean?",
-      "options": [
-        "Stop completely",
-        "Proceed with caution",
-        "Speed up",
-        "Road closed"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "Approaching a railroad crossing with no gates or lights and train coming?",
-      "options": [
-        "Cross quickly",
-        "Slow and proceed",
-        "Stop and wait until train passes",
-        "Honk and go through"
+        "The vehicle's make and model year",
+        "A fixed measurement that is identical for all passenger vehicles",
+        "The net weight of the vehicle",
+        "The manufacturer's original specifications only"
       ],
       "correct": 2
     },
     {
-      "text": "What happens to impact force if you double your speed?",
+      "text": "If you are hauling a load of loose gravel that could spill onto the roadway, you are required by law to:",
       "options": [
-        "Force increases by four times; if tripled, force increases nine times",
-        "Force remains same",
-        "Force halves",
-        "Force reduces"
+        "Display a 'Wide Load' sign on the back of your vehicle",
+        "Use a close-fitting cover sufficient to prevent any contents from falling or blowing out",
+        "Drive only on designated truck routes and avoid highways",
+        "Flash your hazard lights continuously while moving"
       ],
-      "correct": 0
+      "correct": 1
     },
     {
-      "text": "Unless otherwise posted, what is speed limit in residential area?",
+      "text": "During daylight hours, a load extending four feet or more beyond the rear of a vehicle must be marked with:",
+      "options": [
+        "A 12-inch solid red flag",
+        "A 16-inch solid red or orange flag",
+        "A white flag and an amber strobe light",
+        "Reflective silver tape on the furthest point"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "The primary danger of drowsy driving is that it:",
+      "options": [
+        "Is only a problem on long, monotonous interstate trips",
+        "Significantly impairs your reaction time, judgment, and awareness",
+        "Will cause you to receive a ticket if observed by law enforcement",
+        "Makes it illegal to drive between the hours of 2 AM and 6 AM"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "If another driver is driving aggressively and threatening you, the safest course of action is to:",
+      "options": [
+        "Make eye contact and gesture to communicate your displeasure",
+        "Speed up to create a larger gap between you and them",
+        "Avoid making eye contact, stay calm, and safely move out of their way",
+        "Pull over and confront the driver to defuse the situation"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "The three recognized types of distraction that can affect a driver are:",
+      "options": [
+        "Auditory, Sensory, and Psychological",
+        "Visual, Manual, and Cognitive",
+        "Internal, External, and Emotional",
+        "Physical, Mental, and Environmental"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Texting while driving is considered particularly dangerous because it:",
+      "options": [
+        "Is the only distraction that is illegal in all 50 states",
+        "Involves all three types of distraction (visual, manual, and cognitive) simultaneously",
+        "Causes drivers to slow down and impede the normal flow of traffic",
+        "Is a distraction that only new drivers struggle with"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Regarding the ability to drive safely after drinking alcohol:",
+      "options": [
+        "Most people can drive safely after one or two drinks",
+        "Only individuals under the age of 21 are unable to do so safely",
+        "No one can drink and drive safely, as alcohol affects all drivers",
+        "It is safe if you have eaten a large meal beforehand"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "After consuming alcohol, the first ability you lose is:",
+      "options": [
+        "Your night vision and depth perception",
+        "Your physical coordination and balance",
+        "Your judgment and ability to make sound decisions",
+        "Your hearing and sense of smell"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "In a collision, an unbelted occupant is most likely to:",
+      "options": [
+        "Be protected by the vehicle's advanced crumple zones",
+        "Be thrown against the interior of the car or ejected from it, leading to severe injury or death",
+        "Experience only minor bruises, as the force is absorbed by the airbags",
+        "Be safer than a belted occupant in a rollover crash"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Florida's child restraint law requires children to be in a federally approved car seat until they are:",
+      "options": [
+        "3 years of age",
+        "4 years of age",
+        "5 years of age",
+        "6 years of age"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "If a front-seat passenger under the age of 18 is stopped and found not to be wearing a seat belt, who will be charged with the violation?",
+      "options": [
+        "The passenger themselves, as they are responsible for their own safety",
+        "The driver of the vehicle",
+        "Both the driver and the passenger will be charged",
+        "The registered owner of the vehicle, regardless of who is driving"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "On a roadway, a single broken white line between lanes means:",
+      "options": [
+        "You are in a mandatory carpool lane during peak hours",
+        "Lane changes are discouraged and may be unsafe",
+        "You may change lanes if it is safe to do so",
+        "The lane is ending, and you must merge"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "A double solid yellow line down the center of a two-lane road means:",
+      "options": [
+        "Passing is allowed for both directions if done quickly",
+        "Passing is prohibited for vehicles traveling in both directions",
+        "Passing is allowed only for vehicles turning left into a driveway",
+        "It marks a reversible lane, and passing depends on the time of day"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "A solid yellow line to the right of the centerline indicates that:",
+      "options": [
+        "Passing is permitted for traffic moving in your direction",
+        "You are on a one-way road with opposing traffic to your right",
+        "Passing is prohibited for traffic in your lane",
+        "The road is splitting into two separate roadways ahead"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "The color red on a traffic sign is universally used to convey:",
+      "options": [
+        "General warning and caution ahead",
+        "Stop, yield, or a prohibition (e.g., Do Not Enter)",
+        "Motorist services and guidance information",
+        "Construction and maintenance activities"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "At an intersection with four stop signs (a 4-way stop), the right-of-way is granted to:",
+      "options": [
+        "The largest vehicle, regardless of arrival time",
+        "The first vehicle to come to a complete stop at the intersection",
+        "The vehicle on the through street, if one exists",
+        "All vehicles simultaneously, requiring careful negotiation"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "A steady red traffic light means you must:\nA flashing red traffic light means you must:",
+      "options": [
+        "Stop, then proceed with caution; Stop, then proceed only if the intersection is clear",
+        "Slow down and prepare to stop; Stop completely until the light turns green",
+        "Stop and wait for a green light; Treat it as a yield sign",
+        "Stop, then turn right if clear; Come to a complete stop, yield, and proceed when safe"
+      ],
+      "correct": 3
+    },
+    {
+      "text": "You may make a right turn at a steady red light:",
+      "options": [
+        "Never; it is illegal in all circumstances",
+        "After coming to a complete stop and yielding to all cross traffic and pedestrians",
+        "Only if there is a dedicated right-turn lane with a yield sign",
+        "Only between the hours of 9 PM and 5 AM when traffic is light"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "A green arrow displayed at the same time as a red light means:",
+      "options": [
+        "All traffic must stop, including those turning in the direction of the arrow",
+        "You may carefully proceed in the direction of the arrow after yielding",
+        "You have a protected turn; you may turn in the direction of the arrow without yielding to other traffic",
+        "The arrow is about to turn yellow, and you should prepare to stop"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "A flashing yellow traffic signal at an intersection instructs you to:",
+      "options": [
+        "Stop completely before proceeding with caution",
+        "Slow down and proceed through the intersection with caution",
+        "Come to a complete stop if you can do so safely",
+        "Speed up to clear the intersection before the light changes"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "When approaching a railroad crossing that has no gates or flashing lights, and you see a train approaching, you must:",
+      "options": [
+        "Cross the tracks quickly before the train arrives",
+        "Slow down, check both ways, and proceed if you think you can beat the train",
+        "Stop at least 15 feet from the nearest rail and wait until the train has passed",
+        "Sound your horn and flash your headlights to warn the train engineer"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "If you double your speed from 20 mph to 40 mph, the force of impact in a crash will be:",
+      "options": [
+        "Doubled",
+        "Tripled",
+        "Quadrupled",
+        "Increased by a factor of eight"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Unless otherwise posted, the standard speed limit in a residential area is:",
       "options": ["20 mph", "25 mph", "30 mph", "35 mph"],
       "correct": 2
     },
     {
-      "text": "What is the maximum speed limit on a limited access highway?",
-      "options": ["55 mph", "65 mph", "70 mph", "75 mph"],
-      "correct": 2
+      "text": "The maximum speed limit on a limited access Florida highway is:",
+      "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
+      "correct": 1
     },
     {
-      "text": "Can you be cited for driving too slowly?",
+      "text": "Can you be issued a traffic citation for driving too slowly?",
       "options": [
-        "Yes, if impeding traffic",
-        "No",
-        "Only if under 10 mph",
-        "Only trucks"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What are the steps for making a smooth stop?",
-      "options": [
-        "Press accelerator gently",
-        "Check mirrors, release gas, press brake smoothly",
-        "Shift into neutral",
-        "Apply parking brake suddenly"
+        "No, it is always safer to drive below the speed limit",
+        "Yes, if you are driving so slowly that you block or impede the normal flow of traffic",
+        "Only if you are driving more than 15 mph under the limit on a highway",
+        "Only if you are driving a commercial vehicle like a large truck"
       ],
       "correct": 1
     },
     {
-      "text": "What is the arm signal for a left turn?",
+      "text": "For a smooth, controlled stop, you should:",
       "options": [
-        "Arm straight out",
-        "Arm upward",
-        "Arm downward",
-        "Arm waving"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "How far before a turn should you signal?",
-      "options": ["25 feet", "50 feet", "100 feet", "200 feet"],
-      "correct": 2
-    },
-    {
-      "text": "When can you use a 3-point turn?",
-      "options": [
-        "On highways",
-        "Where it is not prohibited and no traffic",
-        "In intersections",
-        "On railroad crossings"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What is an open intersection?",
-      "options": [
-        "One without traffic control signs/signals",
-        "One with stop signs",
-        "One with traffic lights",
-        "Closed during construction"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "When may you drive in the left lane?",
-      "options": [
-        "On any road",
-        "Only to pass on 2-lane; on multi-lane when passing or preparing to turn",
-        "Never",
-        "Always"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What do red reflectors on lane lines facing you mean?",
-      "options": [
-        "You are facing wrong way, turn around",
-        "Stop immediately",
-        "Lane ends",
-        "Safe to proceed"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What is recommended following distance?",
-      "options": [
-        "1 second",
-        "2 seconds",
-        "3-4 seconds minimum",
-        "5-6 seconds"
+        "Press the brake pedal firmly and consistently until you stop",
+        "Pump the brakes rapidly to alert drivers behind you",
+        "Take your foot off the accelerator, then press the brake pedal gradually",
+        "Shift into neutral first to save brake wear, then apply the brakes"
       ],
       "correct": 2
     },
     {
-      "text": "When should you increase following distance?",
+      "text": "The correct hand and arm signal for indicating a left turn is:",
       "options": [
-        "Bad weather, night driving, behind trucks, motorcycles",
-        "On clear roads",
-        "On straight highways",
-        "Never"
+        "Hand and arm extended straight out",
+        "Hand and arm extended upward",
+        "Hand and arm extended downward",
+        "Circling your hand and arm in a counter-clockwise motion"
       ],
       "correct": 0
     },
     {
-      "text": "What are blind spots?",
-      "options": [
-        "Areas not visible in mirrors",
-        "Rear window",
-        "Windshield glare",
-        "Areas you can always see"
-      ],
-      "correct": 0
+      "text": "You must begin to signal for a turn continuously for at least the last ____ before you turn.",
+      "options": ["50 feet", "100 feet", "150 feet", "200 feet"],
+      "correct": 1
     },
     {
-      "text": "How do you check blind spots before lane change?",
+      "text": "A three-point turn (K-turn) is illegal and should never be attempted:",
       "options": [
-        "Look over your shoulder",
-        "Only use mirrors",
-        "Honk",
-        "Guess"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "Where is it unlawful to overtake and pass?",
-      "options": [
-        "On hills, curves, intersections, railroads",
-        "On open highways",
-        "On multi-lane roads",
-        "On bridges only"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "When can you stop in the acceleration lane on expressway?",
-      "options": [
-        "If traffic is heavy and you cannot merge safely",
-        "Never",
-        "Always",
-        "Only in emergencies"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "If you miss your exit on a highway, what should you do?",
-      "options": [
-        "Stop and reverse",
-        "Go to next exit",
-        "Turn around immediately",
-        "Use emergency lane"
+        "On any road with a speed limit above 35 mph",
+        "On a curve or hill where visibility is less than 500 feet in both directions",
+        "In a residential neighborhood, even if no traffic is present",
+        "In any business district during hours of darkness"
       ],
       "correct": 1
     },
     {
-      "text": "If your car breaks down, where should you move it?",
+      "text": "An 'open intersection' is one where:",
       "options": [
-        "Leave in lane",
-        "To the shoulder or emergency lane",
-        "To the middle of road",
-        "To nearest intersection"
+        "There are no traffic control signs or signals at the intersection",
+        "The intersection has a green light and is clear of all traffic",
+        "It is located in a rural area with very little traffic",
+        "The intersection has a yield sign instead of a stop sign"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "On a four-lane road with two lanes traveling in your direction, you may use the left lane:",
+      "options": [
+        "As a through lane for normal driving at any time",
+        "Only when you are passing another vehicle or preparing to make a left turn",
+        "Only if you are traveling at the maximum posted speed limit",
+        "Never; the left lane is reserved for emergency vehicles only"
       ],
       "correct": 1
     },
     {
-      "text": "How far from curb can you park?",
+      "text": "If you see red reflectors on the lane lines facing you, this means:",
+      "options": [
+        "You are traveling the wrong way on a one-way road or ramp; you should pull over immediately",
+        "You are entering a toll road and must prepare to pay",
+        "The lane is reserved for emergency vehicles during peak hours",
+        "There is road construction ahead; reduce speed and proceed with caution"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "The recommended minimum safe following distance under ideal driving conditions is:",
+      "options": ["1 second", "2 seconds", "3 to 4 seconds", "5 to 6 seconds"],
+      "correct": 2
+    },
+    {
+      "text": "You should increase your following distance beyond the recommended minimum when:",
+      "options": [
+        "You are being tailgated by another driver",
+        "The pavement is dry and visibility is perfect",
+        "You are on a multi-lane interstate highway",
+        "You are following a passenger car that is below the speed limit"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "A 'blind spot' is best defined as:",
+      "options": [
+        "An area behind your vehicle that is hidden by the trunk or rear window",
+        "Any area around your vehicle that is not visible in your mirrors",
+        "The area directly in front of your vehicle that is blocked by the hood",
+        "The area to the sides of your vehicle that is hidden by the door frames"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "The most effective way to check your blind spots before changing lanes is to:",
+      "options": [
+        "Rely on your rearview and side mirrors, as they are designed to eliminate blind spots",
+        "Quickly turn your head and glance over your shoulder in the direction you intend to move",
+        "Use your peripheral vision while keeping your eyes focused straight ahead",
+        "Activate your turn signal and wait to see if other drivers honk in protest"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "It is unlawful and dangerous to attempt to pass another vehicle:",
+      "options": [
+        "On any two-lane road, regardless of markings",
+        "When you are in a designated passing zone with a dashed yellow line",
+        "On a hill, curve, or anywhere your view is obstructed",
+        "When you are traveling at the posted speed limit"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "On an expressway, the acceleration lane should:",
+      "options": [
+        "Be used as a stopping area to wait for a large gap in traffic",
+        "Never be used to stop your vehicle for any reason",
+        "Be used to stop and check your GPS for directions",
+        "Be used to stop if you realize you are entering the wrong highway"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "If you realize you have missed your intended exit on a limited access highway, you should:",
+      "options": [
+        "Stop and back up along the shoulder until you reach the exit",
+        "Make a U-turn across the median if there is no barrier",
+        "Proceed to the next exit; never stop or back up on a highway",
+        "Use the emergency crossovers if available to reverse direction"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "If your vehicle becomes disabled on a highway, your first priority should be to:",
+      "options": [
+        "Exit the vehicle and attempt to push it to safety",
+        "Get the vehicle off the roadway and onto the shoulder, if possible",
+        "Stay in your vehicle with your seatbelt on and wait for help",
+        "Place flares directly behind the vehicle to warn others"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "When parallel parking, your vehicle's wheels must be no more than ____ from the curb.",
       "options": ["6 inches", "12 inches", "18 inches", "24 inches"],
       "correct": 1
     },
     {
-      "text": "When parking downhill with manual transmission, what gear?",
+      "text": "When parking facing downhill on a street with a curb, the driver of a vehicle with a manual transmission should leave the car in:",
       "options": [
-        "Neutral",
-        "Reverse for downhill, first gear uphill; park for automatic",
-        "Always neutral",
-        "Second gear"
+        "Neutral with the parking brake firmly engaged",
+        "First gear with the parking brake disengaged",
+        "Reverse gear with the parking brake firmly engaged",
+        "Any gear is acceptable as long as the parking brake is set"
       ],
-      "correct": 1
-    },
-    {
-      "text": "Where is parking prohibited?",
-      "options": [
-        "Crosswalks, sidewalks, driveways, intersections, fire hydrants",
-        "On the shoulder",
-        "Next to broken yellow lines",
-        "Only near schools"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "Which way turn wheels when parking uphill with a curb?",
-      "options": [
-        "Toward curb",
-        "Away from curb",
-        "Straight",
-        "Doesn't matter"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "Are motorists required to yield to pedestrians?",
-      "options": [
-        "Yes, always at crosswalks",
-        "No",
-        "Only in school zones",
-        "Only if signals"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What must you do when you see a pedestrian with a white cane in the street ahead of you?",
-      "options": [
-        "Honk to warn them",
-        "Stop completely and yield right-of-way",
-        "Slow down only",
-        "Drive around them carefully"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What is the minimum distance a motorist must give when traveling next to a cyclist?",
-      "options": ["1 foot", "2 feet", "3 feet", "4 feet"],
       "correct": 2
     },
     {
-      "text": "As a motorist, what should you do when preparing to turn right on a roadway with a bike lane?",
+      "text": "In which of the following locations is parking always illegal?",
       "options": [
-        "Turn immediately without checking",
-        "Yield to bicycles and look both ways before crossing",
-        "Honk to warn cyclists",
-        "Speed up to get ahead"
+        "On the paved shoulder of a controlled-access highway",
+        "Within 15 feet of a fire hydrant",
+        "In a private driveway with the owner's verbal permission",
+        "On a one-way street in the direction of traffic flow"
       ],
       "correct": 1
     },
     {
-      "text": "When on the roadway, do motorcyclists and moped riders have the same rights and responsibilities as motor vehicle drivers?",
+      "text": "When parking your vehicle facing uphill against a curb, you should turn your front wheels:",
       "options": [
-        "No, they have different rules",
-        "Yes, they have the same rights and responsibilities",
-        "Only during daytime",
-        "Only on highways"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "If you are driving a motor vehicle, are you allowed to share a lane with a motorcyclist?",
-      "options": [
-        "Yes, if there's enough room",
-        "No, motorcyclists are entitled to the entire lane",
-        "Only at slow speeds",
-        "Only on highways"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "When a school bus is stopped to unload children on a highway divided with a raised barrier, are vehicles traveling in the opposite direction required to stop?",
-      "options": [
-        "Yes, always stop",
-        "No, vehicles on the opposite side are not required to stop",
-        "Only during school hours",
-        "Only if children are visible"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "When a school bus stops to unload children, are vehicles traveling in the same direction required to stop?",
-      "options": [
-        "No, just slow down",
-        "Yes, all vehicles in the same direction must stop",
-        "Only vehicles directly behind",
-        "Only during school hours"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "When must you stop for a school bus?",
-      "options": [
-        "Always when bus displays red lights and stop arm, on any road",
-        "Only on highways",
-        "Only if children are visible",
-        "Only if you are behind the bus"
+        "Away from the curb, towards the center of the road",
+        "Towards the curb",
+        "Straight ahead, parallel to the curb",
+        "It does not matter; the parking brake will hold the car"
       ],
       "correct": 0
     },
     {
-      "text": "What must you do when children or school crossing guards are present in a crosswalk?",
+      "text": "Florida law requires motorists to:",
       "options": [
-        "Slow down only",
-        "Stop and remain stopped until they clear the crosswalk",
-        "Honk to warn them",
-        "Proceed if no children are directly in front"
+        "Yield the right-of-way to pedestrians only within marked crosswalks",
+        "Yield the right-of-way to pedestrians crossing the roadway at any marked or unmarked crosswalk",
+        "Honk to alert pedestrians when they are in the roadway",
+        "Stop for pedestrians only when a crossing guard is present"
       ],
       "correct": 1
     },
     {
-      "text": "What must you do when an emergency vehicle with flashing lights approaches?",
+      "text": "When you see a pedestrian using a white cane or guide dog in the street ahead, you must:",
       "options": [
-        "Maintain speed",
-        "Pull over to the closest curb/edge and stop",
-        "Stop immediately in lane",
-        "Accelerate to move out of way"
+        "Proceed with caution, as they will yield to you",
+        "Come to a complete stop and yield the right-of-way",
+        "Change lanes to give them a wider berth if possible",
+        "Flash your headlights to warn them of your approach"
       ],
       "correct": 1
     },
     {
-      "text": "What does the Move Over law require you to do?",
+      "text": "Florida law requires that motorists maintain a minimum clearance of ____ when passing a bicyclist.",
+      "options": ["2 feet", "3 feet", "4 feet", "5 feet"],
+      "correct": 1
+    },
+    {
+      "text": "Before making a right turn across a bicycle lane, a motorist must:",
       "options": [
-        "Move over a lane or slow down to 20 mph below limit when passing emergency/utility vehicles",
-        "Stop completely",
-        "Honk at emergency vehicles",
-        "Maintain your lane"
+        "Merge into the bicycle lane approximately 200 feet before the turn",
+        "Stop in the bicycle lane and wait for a gap in bicycle traffic",
+        "Yield to any bicyclists in the lane, merge into the lane only when safe, and then execute the turn",
+        "Honk to warn bicyclists and then turn quickly ahead of them"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "Motorcyclists and moped riders on the roadway:",
+      "options": [
+        "Have fewer rights than drivers of passenger vehicles",
+        "Have the same rights and responsibilities as other motor vehicle drivers",
+        "Are required to use sidewalks and bike paths when available",
+        "Must always ride in a single file line, even in a designated lane"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "A motorist is allowed to share a single traffic lane with a motorcycle:",
+      "options": [
+        "Whenever the lane is wide enough to do so safely",
+        "Only if the motorcyclist signals that it is permissible",
+        "No; motorcycles are entitled to the full use of a lane",
+        "Only on multi-lane highways outside of urban areas"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "On a highway divided by a raised concrete barrier, when a school bus is stopped with red lights flashing on the opposite side:",
+      "options": [
+        "Traffic traveling in the opposite direction must also come to a stop",
+        "Traffic traveling in the opposite direction is not required to stop",
+        "Traffic must stop only if children are visibly crossing the road",
+        "Traffic must stop only if there is no barrier present"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "When a school bus stops and displays its red flashing lights and stop arm on your side of an undivided roadway:",
+      "options": [
+        "You may proceed with caution at a speed under 10 mph",
+        "You must stop until the lights are turned off and the bus begins moving",
+        "You must stop only if you are directly behind the bus",
+        "You must stop only during official school hours"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "You must stop for a school bus:",
+      "options": [
+        "Whenever its yellow hazard lights are flashing",
+        "Only when you are on a two-lane road",
+        "When it is displaying red flashing lights and has its stop arm extended, on any road without a physical median",
+        "Only if you see children actively getting on or off the bus"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "When a school crossing guard is present in a crosswalk and signaling you to stop, you must:",
+      "options": [
+        "Slow down to 5 mph and proceed if no children are present",
+        "Stop and remain stopped until the guard signals you to proceed",
+        "Make eye contact with the guard and proceed if they wave you on",
+        "Stop only if the crosswalk is located within a school zone"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "If an emergency vehicle ( ambulance, fire truck, police car) is approaching you from any direction with its lights and sirens active, you must:",
+      "options": [
+        "Speed up to get out of its way as quickly as possible",
+        "Pull over to the closest edge or curb of the roadway and stop",
+        "Stop immediately right where you are, even if you are in an intersection",
+        "Flash your headlights to acknowledge that you see the emergency vehicle"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Florida's Move Over Law requires drivers to:",
+      "options": [
+        "Move into the farthest lane from any stopped emergency or service vehicle, or slow down to 20 mph below the posted limit",
+        "Stop completely behind any stopped emergency vehicle",
+        "Honk their horn to alert workers of their presence",
+        "Only move over on interstate highways, not on surface streets"
       ],
       "correct": 0
     },
     {
-      "text": "What is a 'No Zone'?",
+      "text": "The 'No-Zone' refers to:",
       "options": [
-        "Areas around large vehicles where cars disappear from driver's view",
-        "School zones",
-        "Construction zones",
-        "Parking prohibited areas"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "At what times must you use your headlights?",
-      "options": [
-        "Only at night",
-        "From sunset to sunrise, in rain/fog, and when visibility is less than 1000 feet",
-        "Only in bad weather",
-        "Only on highways"
+        "Areas in a construction zone where stopping is prohibited",
+        "The blind spots around large commercial trucks where the car is invisible to the truck driver",
+        "A designated no-passing zone marked by double yellow lines",
+        "The area directly in front of a school bus when its lights are flashing"
       ],
       "correct": 1
     },
     {
-      "text": "At night, within how many feet of approaching a vehicle from the rear must you dim your high beam headlights?",
+      "text": "You are required to turn on your headlights:",
+      "options": [
+        "Only between sunset and sunrise",
+        "From sunset to sunrise, during rain, smoke, or fog, and when visibility is less than 1000 feet",
+        "Only when you cannot see the road ahead clearly for at least 500 feet",
+        "Whenever you are using your windshield wipers for any reason"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "You must dim your high-beam headlights to low beams when you are within ____ of following another vehicle.",
       "options": ["200 feet", "300 feet", "400 feet", "500 feet"],
       "correct": 1
     },
     {
-      "text": "Within how many feet of an oncoming vehicle should you dim your high beam headlights?",
-      "options": ["300 feet", "400 feet", "500 feet", "600 feet"],
+      "text": "You must dim your high-beam headlights to low beams when you are within ____ of an oncoming vehicle.",
+      "options": ["300 feet", "500 feet", "700 feet", "1000 feet"],
+      "correct": 1
+    },
+    {
+      "text": "During daytime rain, fog, or smoke, you should use:",
+      "options": [
+        "Your high-beam headlights to maximize visibility",
+        "Your low-beam headlights to help other drivers see you",
+        "Your parking lights only, as they are less glaring",
+        "Your hazard lights to indicate dangerous conditions"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "The best practice for driving on wet roads in the rain is to reduce your speed because:",
+      "options": [
+        "It is required by law whenever your windshield wipers are on",
+        "It helps prevent hydroplaning by maintaining tire contact with the road",
+        "It allows your engine to run more efficiently in damp conditions",
+        "It makes it easier to see the roadway through a wet windshield"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "If your vehicle's right wheels unintentionally drift off onto the shoulder of the pavement, you should:",
+      "options": [
+        "Brake hard to slow down before pulling back on the road",
+        "Grip the steering wheel firmly, ease off the accelerator, and steer back onto the road when safe",
+        "Jerking the steering wheel quickly to the left to get back on the pavement immediately",
+        "Accelerate slightly to gain control and then steer back onto the road"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "If your vehicle begins to skid, your initial reaction should be to:",
+      "options": [
+        "Pump your brakes rhythmically if you have anti-lock brakes (ABS)",
+        "Steer hard in the opposite direction of the skid",
+        "Take your foot off the accelerator and steer in the direction you want the front of the car to go",
+        "Accelerate gently to regain traction and straighten the vehicle"
+      ],
       "correct": 2
     },
     {
-      "text": "When driving in the rain, fog, or smoke in the daytime, what lights should you use?",
+      "text": "In a vehicle equipped with Anti-lock Brakes (ABS), the correct method for emergency braking is to:",
       "options": [
-        "High beam headlights",
-        "Low beam headlights",
-        "Hazard lights",
-        "No lights needed"
+        "Pump the brake pedal rapidly and repeatedly",
+        "Apply firm, steady pressure to the brake pedal and hold it while steering",
+        "Apply light pressure to the brake pedal and gradually increase pressure",
+        "Use the parking brake first, then apply the foot brake"
       ],
       "correct": 1
     },
     {
-      "text": "What should you do when driving on wet roads in the rain? Why?",
+      "text": "If you experience a sudden tire blowout while driving, you should:",
       "options": [
-        "Drive faster to get out of rain quickly",
-        "Reduce speed to prevent hydroplaning and maintain control",
-        "Use cruise control",
-        "Drive normally"
+        "Slam on the brakes to stop as quickly as possible",
+        "Grip the steering wheel tightly, take your foot off the gas, and let the car slow down before gently steering to a safe stop",
+        "Accelerate briefly to regain control, then brake hard",
+        "Immediately steer sharply towards the shoulder of the road"
       ],
       "correct": 1
     },
     {
-      "text": "What should you do if your right wheels go off the pavement while driving?",
+      "text": "If you are involved in a minor crash and your vehicle is blocking traffic, you should:",
       "options": [
-        "Take foot off gas, hold steering wheel firmly, ease back onto pavement when safe",
-        "Brake hard immediately",
-        "Turn sharply left",
-        "Accelerate to get back on road"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What should you do if your tires begin to skid while driving?",
-      "options": [
-        "Take foot off gas and brake, steer in direction of skid",
-        "Brake harder",
-        "Turn opposite direction",
-        "Accelerate"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "When emergency braking, what is the difference between conventional brakes and anti-lock brakes (ABS)?",
-      "options": [
-        "No difference",
-        "ABS: press hard and hold; Conventional: pump the brakes",
-        "Conventional: press hard and hold; ABS: pump the brakes",
-        "Both require pumping"
+        "Leave the vehicles in place exactly as they came to rest for police investigation",
+        "Move your vehicle out of the travel lanes to a safe nearby location if it is drivable and safe to do so",
+        "Stand behind your vehicle to direct traffic around the scene",
+        "Immediately exit your vehicle and run to a safe location away from the road"
       ],
       "correct": 1
     },
     {
-      "text": "What should you do if your tire blows out?",
+      "text": "If you hit a parked vehicle and cannot find the owner, you must:",
       "options": [
-        "Take foot off gas, steer straight, brake gently when safe",
-        "Brake hard immediately",
-        "Turn sharply",
-        "Accelerate quickly"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What must you do if you are involved in a minor accident and your vehicle is blocking the flow of traffic?",
-      "options": [
-        "Leave vehicle where it is",
-        "Move vehicle out of traffic if safely possible",
-        "Wait for police before moving",
-        "Turn on hazards and stay put"
+        "Wait for at least 30 minutes for the owner to return",
+        "Leave a note with your name, address, and vehicle registration number in a conspicuous place",
+        "Call the police only if the damage appears to exceed $500",
+        "Drive away; since it was parked, you are not obligated to do anything"
       ],
       "correct": 1
     },
     {
-      "text": "If you hit a parked car and cannot find the owner, what must you do?",
+      "text": "Leaving the scene of a crash involving injury or death is a criminal offense that can result in:",
       "options": [
-        "Leave your name, contact, and tag number",
-        "Drive away",
-        "Report only if damage is major",
-        "Wait for 5 minutes then leave"
+        "A small fine and points on your driving record",
+        "Mandatory attendance in a driver improvement course",
+        "Felony charges, mandatory license revocation, and severe penalties including imprisonment",
+        "A 30-day suspension of your driver's license"
       ],
-      "correct": 0
-    },
-    {
-      "text": "What are the penalties for leaving the scene of a crash involving injury or death?",
-      "options": [
-        "Felony charges, license revoked, possible prison",
-        "Small fine only",
-        "Traffic school only",
-        "Suspension for 30 days"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What are the requirements of the No-Fault Law?",
-      "options": [
-        "Minimum $10,000 PIP and $10,000 PDL coverage",
-        "Only liability insurance",
-        "Only collision coverage",
-        "No insurance required"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "If your license and registration are suspended for being in violation of the No-Fault Law, what must you do to get them reinstated?",
-      "options": [
-        "Pay a fine only",
-        "Show proof of insurance and pay reinstatement fees",
-        "Take a driving test",
-        "Wait 30 days"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What are the penalties if you are at fault in a crash and you are not insured in compliance with the Financial Responsibility Law?",
-      "options": [
-        "Must pay for damages before license is reinstated",
-        "Small fine only",
-        "No penalties",
-        "Traffic school"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What are the time restrictions for a motorist with a learner's license?",
-      "options": [
-        "No restrictions",
-        "Daylight hours for first 3 months, then until 10 pm, with licensed adult 21+",
-        "Anytime with supervision",
-        "Only weekends"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What are the time restrictions for a licensed motorist under age 17?",
-      "options": [
-        "No restrictions",
-        "6 am to 11 pm unless for work or with licensed adult 21+",
-        "Daylight hours only",
-        "Anytime"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What are the time restrictions for a licensed motorist under age 18?",
-      "options": [
-        "6 am to 11 pm",
-        "5 am to 1 am unless for work or with licensed adult 21+",
-        "No restrictions",
-        "Daylight only"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "When can you be charged with driving under the influence (DUI)?",
-      "options": [
-        "Only with alcohol",
-        "When impaired by alcohol, drugs, or medication while driving or in physical control",
-        "Only with illegal drugs",
-        "Only if BAC is above 0.10"
-      ],
-      "correct": 1
-    },
-    {
-      "text": "What are the penalties for refusing to take a blood test, urine test, or breath test when suspected of driving under the influence?",
-      "options": [
-        "First refusal: 1 year suspension; Second refusal: 18 months and misdemeanor",
-        "No penalties",
-        "Small fine",
-        "Traffic school"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "What can happen if you are found guilty of racing on the highway?",
-      "options": [
-        "License revocation",
-        "Small fine only",
-        "Warning",
-        "Traffic school"
-      ],
-      "correct": 0
-    },
-    {
-      "text": "If you have a learner's license, how many hours of driving experience are required to earn the Class E driver license?",
-      "options": ["25 hours", "40 hours", "50 hours (10 at night)", "60 hours"],
       "correct": 2
     },
     {
-      "text": "What education course are you required to take if you are applying for a learner's license (or have never held a driver license)?",
+      "text": "Florida's No-Fault Law requires all motor vehicle owners to carry a minimum of:",
       "options": [
-        "Basic Driver Improvement",
-        "Traffic Law and Substance Abuse Education (TLSAE)",
-        "Defensive Driving",
-        "No course required"
+        "$10,000 of Bodily Injury Liability (BIL) per person",
+        "$10,000 of Personal Injury Protection (PIP) and $10,000 of Property Damage Liability (PDL)",
+        "$25,000 of Uninsured Motorist (UM) coverage",
+        "Only comprehensive and collision coverage for their own vehicle"
       ],
       "correct": 1
     },
     {
-      "text": "Are you required to notify FLHSMV of any health problems that may affect your driving?",
+      "text": "To reinstate your driver license after a suspension for a No-Fault insurance violation, you typically must:",
       "options": [
-        "No",
-        "Yes, you must list physical or mental conditions on your application",
-        "Only major conditions",
-        "Only if asked by police"
+        "Wait for the suspension period to expire automatically",
+        "Provide proof of insurance and pay a reinstatement fee",
+        "Retake the driving skills test and vision test",
+        "Complete a state-approved defensive driving course"
       ],
       "correct": 1
     },
     {
-      "text": "Why would one opt to take a Basic Driver Improvement Course?",
+      "text": "If you are at fault in a crash and are not insured as required by the Financial Responsibility Law, you may:",
       "options": [
-        "To avoid points on license, meet court requirements, or get insurance discounts",
-        "It's always required",
-        "Only for new drivers",
-        "Only after accidents"
+        "Have your license and tags suspended for up to 3 years, or until you provide proof of insurance and pay restitution",
+        "Only be required to pay a small fine to the other driver's insurance company",
+        "Be forced to sell your vehicle to cover the damages",
+        "Have your insurance rates automatically increased for 5 years"
       ],
       "correct": 0
     },
     {
-      "text": "What maneuvers are required on a driving exam?",
+      "text": "A holder of a learner's driver license is restricted to driving:",
       "options": [
-        "Parallel parking, three-point turn, and quick stop",
-        "Only straight-line driving",
-        "Highway driving only",
-        "No specific maneuvers required"
+        "Only between 5 AM and 9 PM",
+        "Only during daylight hours for the first 3 months, and until 10 PM thereafter, with a licensed driver 21+ in the front seat",
+        "At any time, as long as a licensed adult is in the vehicle",
+        "Only to and from school or work"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "For the first three months after licensing, a driver who is 17 years old:",
+      "options": [
+        "Has no driving restrictions",
+        "May only drive between 6:00 a.m. and 11:00 p.m., unless driving to or from work",
+        "May only drive if accompanied by a licensed driver 21 years or older",
+        "Is not allowed to drive on any interstate highways"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "A driver who is under 18 years of age:",
+      "options": [
+        "May not drive between the hours of 11:00 p.m. and 6:00 a.m., unless driving to or from work or accompanied by a licensed driver 21+",
+        "Has the same driving privileges as any adult driver",
+        "May only drive during daylight hours for the first year",
+        "Is prohibited from having any passengers under the age of 25"
       ],
       "correct": 0
+    },
+    {
+      "text": "You can be charged with Driving Under the Influence (DUI) in Florida if you are driving or in actual physical control of a vehicle while:",
+      "options": [
+        "Your blood alcohol level (BAC) is .08% or more, or you are impaired by alcohol, chemical substances, or controlled substances",
+        "You have consumed any amount of alcohol, regardless of impairment",
+        "You have a detectable amount of an illegal drug in your system, even if you are not impaired",
+        "You are under the age of 21 and have a BAC of .02% or more, but adults can only be charged at .08%"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "Under Florida's Implied Consent Law, refusing to take a breath, blood, or urine test when lawfully requested by an officer:",
+      "options": [
+        "Is your legal right and has no immediate consequences",
+        "Will result in an automatic 1-year license suspension for a first refusal",
+        "Will only result in a small fine if you are not ultimately convicted of DUI",
+        "Is only a penalty if you are subsequently convicted of DUI"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "A conviction for racing on the highway will result in:",
+      "options": [
+        "A mandatory 1-year revocation of your driver license",
+        "A small fine and 3 points on your driving record",
+        "A written warning for a first offense",
+        "Required attendance at a weekend driving seminar"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "To be eligible for a Class E license, a holder of a learner's license must have logged at least ____ of supervised driving practice.",
+      "options": [
+        "30 hours, with 5 hours at night",
+        "40 hours, with 10 hours at night",
+        "50 hours, with 10 hours at night",
+        "60 hours, with 15 hours at night"
+      ],
+      "correct": 2
+    },
+    {
+      "text": "First-time applicants for a Florida learner's license must show proof of completion of:",
+      "options": [
+        "A Basic Rider Course (for motorcycles)",
+        "A Traffic Law and Substance Abuse Education (TLSAE) course",
+        "A Advanced Driver Improvement (ADI) course",
+        "No formal course is required, only a written test"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "Are you required to notify the FLHSMV of a medical condition that could affect your driving?",
+      "options": [
+        "No, medical privacy laws prevent this requirement",
+        "Yes, you must report any permanent or long-term condition that could impair your driving ability",
+        "Only if the condition causes you to lose consciousness",
+        "Only after you have been involved in a crash caused by the condition"
+      ],
+      "correct": 1
+    },
+    {
+      "text": "A driver might choose to voluntarily take a Basic Driver Improvement (BDI) course to:",
+      "options": [
+        "Fulfill a court order, avoid points on their license, or qualify for an insurance discount",
+        "Learn how to perform advanced maneuvers like evasive skid control",
+        "Replace the required TLSAE course for first-time license applicants",
+        "Reduce the number of practice hours needed for a learner's license"
+      ],
+      "correct": 0
+    },
+    {
+      "text": "The driving skills exam for a Class E license will typically include:",
+      "options": [
+        "Only highway driving and merging at speed",
+        "A pre-trip vehicle inspection and a closed-course obstacle test",
+        "Basic maneuvers such as approaching intersections, backing, and parking",
+        "A night driving evaluation and a skid recovery test"
+      ],
+      "correct": 2
     }
   ]
 }
