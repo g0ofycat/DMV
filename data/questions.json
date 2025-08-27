@@ -725,10 +725,10 @@
       "options": [
         "Has no driving restrictions",
         "May only drive between 6:00 a.m. and 11:00 p.m., unless driving to or from work",
-        "May only drive if accompanied by a licensed driver 21 years or older",
+        "May only drive during daylight hours, after 3 months they can drive until 10:00 p.m.",
         "Is not allowed to drive on any interstate highways"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
       "text": "A driver who is under 18 years of age:",
