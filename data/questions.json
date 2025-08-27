@@ -14,7 +14,7 @@
       "text": "Florida law requires that your vehicle's windshield:",
       "options": [
         "May have a non-reflective tint on the top 6 inches",
-        "Must be made of safety glass and be free of any stickers or obstructions",
+        "Must be made of safety glass and be free of any stickers or obstructions and also cannot be reflective or non-transparent",
         "Can have cracks shorter than 3 inches without requiring repair",
         "Must be replaced if it has any minor pitting or sand scratches"
       ],
@@ -44,7 +44,7 @@
       "text": "During daylight hours, a load extending four feet or more beyond the rear of a vehicle must be marked with:",
       "options": [
         "A 12-inch solid red flag",
-        "A 16-inch solid red or orange flag",
+        "A 16-inch solid red flag",
         "A white flag and an amber strobe light",
         "Reflective silver tape on the furthest point"
       ],
@@ -193,10 +193,10 @@
     {
       "text": "A steady red traffic light means you must:\nA flashing red traffic light means you must:",
       "options": [
-        "Stop, then proceed with caution; Stop, then proceed only if the intersection is clear",
-        "Slow down and prepare to stop; Stop completely until the light turns green",
-        "Stop and wait for a green light; Treat it as a yield sign",
-        "Stop, then turn right if clear; Come to a complete stop, yield, and proceed when safe"
+        "Steady: Stop, then proceed with caution; Flashing: Stop, then proceed only if the intersection is clear",
+        "Steady: Slow down and prepare to stop; Flashing: Stop completely until the light turns green",
+        "Steady: Stop and wait for a green light; Flashing: Treat it as a yield sign",
+        "Steady: Stop, then turn right if clear; Flashing: Come to a complete stop, yield, and proceed when safe"
       ],
       "correct": 3
     },
@@ -215,7 +215,7 @@
       "options": [
         "All traffic must stop, including those turning in the direction of the arrow",
         "You may carefully proceed in the direction of the arrow after yielding",
-        "You have a protected turn; you may turn in the direction of the arrow without yielding to other traffic",
+        "You have a protected turn; you may turn in the direction of the arrow without yielding to other traffic although you have to yield to pedestrians and oncoming vehicles.",
         "The arrow is about to turn yellow, and you should prepare to stop"
       ],
       "correct": 2
@@ -241,7 +241,7 @@
       "correct": 2
     },
     {
-      "text": "If you double your speed from 20 mph to 40 mph, the force of impact in a crash will be:",
+      "text": "If you double your speed, the force of impact in a crash will be:",
       "options": [
         "Doubled",
         "Tripled",
@@ -251,14 +251,34 @@
       "correct": 2
     },
     {
+      "text": "Unless otherwise posted, the standard speed limit in a school zone is:",
+      "options": ["20 mph", "25 mph", "30 mph", "35 mph"],
+      "correct": 0
+    },
+    {
       "text": "Unless otherwise posted, the standard speed limit in a residential area is:",
       "options": ["20 mph", "25 mph", "30 mph", "35 mph"],
       "correct": 2
     },
     {
+      "text": "The maximum speed limit on a Florida highways or other streets is:",
+      "options": ["40 mph", "45 mph", "50 mph", "55 mph"],
+      "correct": 3
+    },
+    {
       "text": "The maximum speed limit on a limited access Florida highway is:",
       "options": ["65 mph", "70 mph", "75 mph", "80 mph"],
       "correct": 1
+    },
+    {
+      "text": "If your car breaks down, how far should it be seen from each direction?",
+      "options": [
+        "200 feet",
+        "250 feet",
+        "300 feet",
+        "350 feet"
+      ],
+      "correct": 0
     },
     {
       "text": "Can you be issued a traffic citation for driving too slowly?",
@@ -384,7 +404,7 @@
       "text": "On an expressway, the acceleration lane should:",
       "options": [
         "Be used as a stopping area to wait for a large gap in traffic",
-        "Never be used to stop your vehicle for any reason",
+        "Be used to stop when your load is too heavy for you to merge safely.",
         "Be used to stop and check your GPS for directions",
         "Be used to stop if you realize you are entering the wrong highway"
       ],
@@ -541,7 +561,7 @@
       "correct": 1
     },
     {
-      "text": "If an emergency vehicle ( ambulance, fire truck, police car) is approaching you from any direction with its lights and sirens active, you must:",
+      "text": "If an emergency vehicle (Ambulance, Fire truck, Police car) is approaching you from any direction with its lights and sirens active, you must:",
       "options": [
         "Speed up to get out of its way as quickly as possible",
         "Pull over to the closest edge or curb of the roadway and stop",

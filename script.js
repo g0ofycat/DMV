@@ -3,6 +3,7 @@
 let questions = [];
 let quizQuestions = [];
 const usedIndexes = new Set();
+let skippedQuestions = new Set();
 const maxQuestions = 50;
 
 async function loadQuestions() {
@@ -105,7 +106,8 @@ function setupEventListeners() {
   });
 
   elements.skipBtn.addEventListener("click", () => {
-    skippedCount++;
+    skippedQuestions.add(currentQuestionIndex);
+    skippedCount = skippedQuestions.size;
     if (currentQuestionIndex < quizQuestions.length - 1) {
       currentQuestionIndex++;
       elements.feedback.textContent = "";
@@ -120,9 +122,7 @@ function setupEventListeners() {
 function renderQuestion() {
   const q = quizQuestions[currentQuestionIndex];
 
-  elements.qNum.textContent = `Question ${currentQuestionIndex + 1} of ${
-    quizQuestions.length
-  }`;
+  elements.qNum.textContent = `Question ${currentQuestionIndex + 1} of ${quizQuestions.length}`;
   elements.qText.textContent = q.text;
 
   elements.opts.innerHTML = "";
@@ -139,7 +139,14 @@ function renderQuestion() {
 
     input.addEventListener("change", () => {
       answers[currentQuestionIndex] = i;
+
+      if (skippedQuestions.has(currentQuestionIndex)) {
+        skippedQuestions.delete(currentQuestionIndex);
+        skippedCount = skippedQuestions.size;
+      }
+
       updateCounters();
+      updateNextButtonState();
     });
 
     label.appendChild(input);
@@ -148,10 +155,17 @@ function renderQuestion() {
   });
 
   elements.prevBtn.disabled = currentQuestionIndex === 0;
+  elements.skipBtn.disabled = currentQuestionIndex === quizQuestions.length - 1;
   elements.nextBtn.textContent =
     currentQuestionIndex === quizQuestions.length - 1 ? "Submit" : "Next";
-  elements.skipBtn.disabled = currentQuestionIndex === quizQuestions.length - 1;
+
+  updateNextButtonState();
 }
+
+function updateNextButtonState() {
+  elements.nextBtn.disabled = answers[currentQuestionIndex] === null;
+}
+
 
 // ---------- RESULTS ----------
 
@@ -204,34 +218,55 @@ function showResults() {
   elements.feedback.innerHTML = quizQuestions
     .map((q, i) => {
       const isCorrect = answers[i] === q.correct;
-      const userAnswer =
-        answers[i] !== null ? q.options[answers[i]] : "No answer";
+      const isSkipped = answers[i] === null && skippedQuestions.has(i);
+      const userAnswer = answers[i] !== null ? q.options[answers[i]] : "No answer";
       const correctAnswer = q.options[q.correct];
 
+      let borderColor = "gray";
+      let answerColor = "black";
+      let background = "#fff";
+
+      if (isCorrect) {
+        borderColor = "green";
+        background = "#f0f8f0";
+      } else if (isSkipped) {
+        borderColor = "goldenrod";
+        background = "#fffbe0";
+      } else {
+        borderColor = "red";
+        background = "#fff0f0";
+      }
+
+      if (isSkipped) {
+        answerColor = "orange";
+      } else if (isCorrect) {
+        answerColor = "green";
+      } else {
+        answerColor = "red";
+      }
+
       return `
-        <div style="margin-bottom: 15px; padding: 10px; border-left: 4px solid ${
-          isCorrect ? "green" : "red"
-        }; background: ${isCorrect ? "#f0f8f0" : "#fff0f0"};">
-          <div style="color: ${
-            isCorrect ? "green" : "red"
-          }; font-weight: bold; margin-bottom: 5px;">Q${i + 1}: ${q.text}</div>
-          <div style="font-size: 0.9em;">
-            <div style="color: ${isCorrect ? "green" : "red"};">
-              Your answer: ${userAnswer}
-            </div>
-            ${
-              !isCorrect
-                ? `<div style="color: green;">Correct answer: ${correctAnswer}</div>`
-                : ""
-            }
-            ${
-              q.note
-                ? `<div style="color: #666; font-style: italic; margin-top: 5px;">Note: ${q.note}</div>`
-                : ""
-            }
+      <div style="margin-bottom: 15px; padding: 10px; border-left: 4px solid ${borderColor}; background: ${background};">
+        <div style="color: ${borderColor}; font-weight: bold; margin-bottom: 5px;">Q${
+        i + 1
+      }: ${q.text}</div>
+        <div style="font-size: 0.9em;">
+          <div style="color: ${answerColor};">
+            Your answer: ${userAnswer}
           </div>
+          ${
+            !isCorrect && !isSkipped
+              ? `<div style="color: green;">Correct answer: ${correctAnswer}</div>`
+              : ""
+          }
+          ${
+            q.note
+              ? `<div style="color: #666; font-style: italic; margin-top: 5px;">Note: ${q.note}</div>`
+              : ""
+          }
         </div>
-      `;
+      </div>
+    `;
     })
     .join("");
 }
