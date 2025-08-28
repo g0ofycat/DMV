@@ -161,7 +161,7 @@
       "correct": 1
     },
     {
-      "text": "A solid yellow line to the right of the centerline indicates that:",
+      "text": "A solid yellow line to the right of the centerline (Your lane) indicates that:",
       "options": [
         "Passing is permitted for traffic moving in your direction",
         "You are on a one-way road with opposing traffic to your right",
@@ -191,12 +191,12 @@
       "correct": 1
     },
     {
-      "text": "A steady red traffic light means you must:\nA flashing red traffic light means you must:",
+      "text": "A steady red traffic light means you must: A flashing red traffic light means you must:",
       "options": [
         "Steady: Stop, then proceed with caution; Flashing: Stop, then proceed only if the intersection is clear",
         "Steady: Slow down and prepare to stop; Flashing: Stop completely until the light turns green",
         "Steady: Stop and wait for a green light; Flashing: Treat it as a yield sign",
-        "Steady: Stop, then turn right if clear; Flashing: Come to a complete stop, yield, and proceed when safe"
+        "Steady: Stop, then turn right if clear and no sign says otherwise; Flashing: Come to a complete stop, yield, and proceed when safe"
       ],
       "correct": 3
     },
@@ -204,7 +204,7 @@
       "text": "You may make a right turn at a steady red light:",
       "options": [
         "Never; it is illegal in all circumstances",
-        "After coming to a complete stop and yielding to all cross traffic and pedestrians",
+        "After coming to a complete stop and yielding to all cross traffic and pedestrians and there's no sign that says otherwise",
         "Only if there is a dedicated right-turn lane with a yield sign",
         "Only between the hours of 9 PM and 5 AM when traffic is light"
       ],

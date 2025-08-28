@@ -4,20 +4,33 @@ let questions = [];
 let quizQuestions = [];
 const usedIndexes = new Set();
 let skippedQuestions = new Set();
-const maxQuestions = 50;
+let maxQuestions = 50;
 
-async function loadQuestions() {
+async function loadJSON() {
   try {
-    const response = await fetch("./data/questions.json");
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    const [questionsRes, settingsRes] = await Promise.all([
+      fetch("./data/questions.json"),
+      fetch("./other/settings.json"),
+    ]);
+
+    if (!questionsRes.ok) {
+      throw new Error(`Questions fetch failed: ${questionsRes.status}`);
     }
-    const data = await response.json();
-    questions = data.questions;
+    if (!settingsRes.ok) {
+      throw new Error(`Settings fetch failed: ${settingsRes.status}`);
+    }
+
+    const [questionsData, settingsData] = await Promise.all([
+      questionsRes.json(),
+      settingsRes.json(),
+    ]);
+
+    questions = questionsData.questions;
+    maxQuestions = settingsData.settings.max_questions;
 
     initializeQuiz();
   } catch (error) {
-    console.error("Error loading questions:", error);
+    console.error("Error loading JSON files:", error);
   }
 }
 
@@ -186,27 +199,26 @@ function updateCounters() {
 }
 
 function showResults() {
-  elements.prevBtn.disabled = true;
-  elements.nextBtn.disabled = true;
-  elements.skipBtn.disabled = true;
+  [elements.prevBtn, elements.nextBtn, elements.skipBtn].forEach(
+    (btn) => (btn.disabled = true)
+  );
 
-  const optionInputs = elements.opts.querySelectorAll("input[type='radio']");
-  optionInputs.forEach((input) => (input.disabled = true));
-
+  elements.opts.querySelectorAll("input[type='radio']").forEach(
+    (input) => (input.disabled = true)
+  );
   elements.opts.querySelectorAll("label.option").forEach((label) => {
     label.classList.add("disabled");
-    label.querySelector("input").disabled = true;
+    const input = label.querySelector("input");
+    if (input) input.disabled = true;
   });
 
   elements.results.classList.remove("hidden");
 
   const total = quizQuestions.length;
-  let correctCount = 0;
-
-  quizQuestions.forEach((q, i) => {
-    if (answers[i] === q.correct) correctCount++;
-  });
-
+  const correctCount = quizQuestions.reduce(
+    (count, q, i) => count + (answers[i] === q.correct ? 1 : 0),
+    0
+  );
   const percentage = Math.round((correctCount / total) * 100);
 
   elements.score.innerHTML = `
@@ -222,55 +234,44 @@ function showResults() {
       const userAnswer = answers[i] !== null ? q.options[answers[i]] : "No answer";
       const correctAnswer = q.options[q.correct];
 
-      let borderColor = "gray";
-      let answerColor = "black";
-      let background = "#fff";
+      let colors = {
+        border: "gray",
+        bg: "#fff",
+        answer: "black",
+      };
 
       if (isCorrect) {
-        borderColor = "green";
-        background = "#f0f8f0";
+        colors = { border: "green", bg: "#f0f8f0", answer: "green" };
       } else if (isSkipped) {
-        borderColor = "goldenrod";
-        background = "#fffbe0";
+        colors = { border: "goldenrod", bg: "#fffbe0", answer: "orange" };
       } else {
-        borderColor = "red";
-        background = "#fff0f0";
-      }
-
-      if (isSkipped) {
-        answerColor = "orange";
-      } else if (isCorrect) {
-        answerColor = "green";
-      } else {
-        answerColor = "red";
+        colors = { border: "red", bg: "#fff0f0", answer: "red" };
       }
 
       return `
-      <div style="margin-bottom: 15px; padding: 10px; border-left: 4px solid ${borderColor}; background: ${background};">
-        <div style="color: ${borderColor}; font-weight: bold; margin-bottom: 5px;">Q${
-        i + 1
-      }: ${q.text}</div>
-        <div style="font-size: 0.9em;">
-          <div style="color: ${answerColor};">
-            Your answer: ${userAnswer}
+        <div style="margin-bottom: 15px; padding: 10px; border-left: 4px solid ${colors.border}; background: ${colors.bg};">
+          <div style="color: ${colors.border}; font-weight: bold; margin-bottom: 5px;">
+            Q${i + 1}: ${q.text}
           </div>
-          ${
-            !isCorrect && !isSkipped
-              ? `<div style="color: green;">Correct answer: ${correctAnswer}</div>`
-              : ""
-          }
-          ${
-            q.note
-              ? `<div style="color: #666; font-style: italic; margin-top: 5px;">Note: ${q.note}</div>`
-              : ""
-          }
+          <div style="font-size: 0.9em;">
+            <div style="color: ${colors.answer};">Your answer: ${userAnswer}</div>
+            ${
+              !isCorrect && !isSkipped
+                ? `<div style="color: green;">Correct answer: ${correctAnswer}</div>`
+                : ""
+            }
+            ${
+              q.note
+                ? `<div style="color: #666; font-style: italic; margin-top: 5px;">Note: ${q.note}</div>`
+                : ""
+            }
+          </div>
         </div>
-      </div>
-    `;
+      `;
     })
     .join("");
 }
 
 // ---------- INIT ----------
 
-loadQuestions();
+loadJSON();
